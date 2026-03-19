@@ -8,6 +8,8 @@ elif a < b and p <= 0:
     print("Erro: p deve ser positivo.")
 elif a > b and p >= 0:
     print("Erro: p deve ser negativo.")
+elif a == b:
+    print("Erro: a e b nao podem ser iguais.")
 else:
     valoresImpressos = 0
     
